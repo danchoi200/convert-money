@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="CONVERT"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/Black"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:text="From"
+        android:textSize="20dp"
+        android:textColor="@color/Black" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edit_imp"
+            android:background="@android:color/transparent"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+            android:gravity="center"/>
+        <Spinner
+            android:id="@+id/sp_from"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:text="To"
+        android:textSize="20dp"
+        android:textColor="@color/Black"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_res"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/Black"
+            android:gravity="center"/>
+        <Spinner
+            android:id="@+id/sp_to"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+</LinearLayout>
